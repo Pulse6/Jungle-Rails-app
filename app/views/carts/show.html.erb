@@ -7,8 +7,10 @@
   <% if cart.size > 0 %>
     <%= render 'cart' %>
   <% else %>
-    <%= 'Cart is empty go to' %>
-    <%= link_to 'home page', '/' %>
+  <div class="order-summary jumbotron">
+    <h4>Your Cart is Empty</h4>
+  </div>
+    <%= link_to "Back to Homepage", root_path, class: 'btn btn-lg btn-primary' %>
   <% end %>
 
 </section>
