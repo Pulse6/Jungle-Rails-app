@@ -16,9 +16,9 @@
         </tr>
       </thead>
       <tbody>
-          <% @line_items.each do |item| %>
-            <%= render 'lineItem', product: item.product, quantity: item.quantity.to_i %>
-          <% end %>
+        <% @line_items.each do |item| %>
+          <%= render 'lineItem', product: item.product, quantity: item.quantity.to_i %>
+        <% end %>
       </tbody>
       <tfoot>
         <tr>
