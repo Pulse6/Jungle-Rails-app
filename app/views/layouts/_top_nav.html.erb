@@ -30,6 +30,13 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li style="display:flex;">
+          <% if current_user %>
+            <a>Signed in as <%= current_user.first_name %></a><%= link_to "Logout", '/logout' %>
+          <% else %>
+            <%= link_to 'Login', '/login' %><%= link_to 'Signup', '/signup' %>
+          <% end %>
+        <li>
        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 
@@ -39,6 +46,7 @@
           <ul class="dropdown-menu">
             <li><%= link_to 'Dashboard', [:admin, :root] %></li>
             <li><%= link_to 'Products',  [:admin, :products] %></li>
+            <li><%= link_to 'Categories',  [:admin, :categories] %></li>
           </ul>
         </li>
         <li>
