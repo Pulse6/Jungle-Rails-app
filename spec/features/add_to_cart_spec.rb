@@ -16,7 +16,7 @@ RSpec.feature "User can click 'Add to Cart' button and cart increase by one", ty
     end
   end
 
-  scenario "Cart updates by one" do
+  xscenario "Cart updates by one" do
     # ACT
     visit root_path
     first('.product').click_button('Add')
