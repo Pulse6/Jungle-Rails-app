@@ -1,16 +1,3 @@
-# Interview Scheduler
-
-Scheduler is a simple single-page app made from react.
-
-## Setup
-1. Fork this repository, then clone your fork of this repository.
-2. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm start` command. The app will be served at http://localhost:8000/.
-4. Go to http://localhost:8000/ in your browser.
-
-## Preview
-![landing page](https://github.com/Pulse6/scheduler/blob/master/docs/preview.png)
-
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
@@ -29,7 +16,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Stripe Testing
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+Use Credit Card # 4242 4242 4242 4242 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
@@ -38,3 +25,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Preview
+![landing page](https://github.com/Pulse6/Jungle-Rails-app/blob/master/docs/landingpage.png)
+![checkout page](https://github.com/Pulse6/Jungle-Rails-app/blob/master/docs/checkout.png)
